@@ -1,0 +1,32 @@
+{
+  "name": "react_first_lesson",
+  "version": "1.0.0",
+  "description": "Creating my first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "del dist && webpack --mode development",
+    "start": "node app.js"
+  },
+  "author": "Karen Chobanyan (karen.ysu7@mail.ru)",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "express": "^4.18.2",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack-cli": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-react": "^7.18.6",
+    "web": "^0.0.2",
+    "webpack": "^5.82.0"
+  }
+}
